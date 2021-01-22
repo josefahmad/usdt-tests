@@ -1,6 +1,0 @@
-$ gcc -o test test.c
-$ ./test &
-$ sudo python test-usdt.py $(pidof test) $(pwd)/test
-
-Then open up test-usdt.py, comment out the attach_probe for probe_arg_0 and
-probe_arg_1 and re-run test-usdt.py to see it work fine.
